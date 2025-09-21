@@ -21,14 +21,8 @@ def solve_n_queens(n):
     backtrack()
     return solutions
 
-def print_board(solution):
-    n = len(solution)
-    for row in solution:
-        print(" ".join("Q" if i == row else "." for i in range(n)))
-    print()
-
 def main():
-    ns = [4, 5, 6, 7, 8]
+    ns = [4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
     print(f"{'n':>2} | {'# soluciones':>12} | {'Tiempo (s)':>10}")
     print("-" * 32)
     for n in ns:
