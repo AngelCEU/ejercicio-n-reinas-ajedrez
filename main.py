@@ -36,10 +36,7 @@ def main():
         sols = solve_n_queens(n)
         elapsed = time.time() - start
         print(f"{n:>2} | {len(sols):>12} | {elapsed:>10.5f}")
-        if n == 4:  # Ejemplo: mostrar soluciones para n=4
-            print("Ejemplo de soluciones para n=4:")
-            for sol in sols:
-                print_board(sol)
+        
 
 if __name__ == "__main__":
     main()
