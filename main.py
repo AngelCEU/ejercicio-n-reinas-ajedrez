@@ -22,7 +22,7 @@ def solve_n_queens(n):
     return solutions
 
 def main():
-    ns = [4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    ns = [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
     print(f"{'n':>2} | {'# soluciones':>12} | {'Tiempo (s)':>10}")
     print("-" * 32)
     for n in ns:
